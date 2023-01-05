@@ -10,6 +10,7 @@ interface BubbleMenuPropsInterface {
     content: React.ReactNode;
     defaultSize: number;
     backgroundColor: string;
+    uniqueKey: string;
   }>;
 }
 
@@ -20,6 +21,7 @@ const BubbleMenu = React.memo((props: BubbleMenuPropsInterface) => {
         <Bubble
           defaultSize={item.defaultSize}
           backgroundColor={item.backgroundColor}
+          uniqueKey={item.uniqueKey}
           key={index.toString()}>
           {item.content}
         </Bubble>

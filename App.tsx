@@ -23,6 +23,7 @@ const App = () => {
       ),
       defaultSize: 100,
       backgroundColor: '#fb2c73',
+      uniqueKey: 'yoga',
     },
     {
       content: (
@@ -32,6 +33,7 @@ const App = () => {
       ),
       defaultSize: 150,
       backgroundColor: '#1376dd',
+      uniqueKey: 'meditate',
     },
     {
       content: (
@@ -41,6 +43,7 @@ const App = () => {
       ),
       defaultSize: 200,
       backgroundColor: '#f26020',
+      uniqueKey: 'sleep',
     },
     {
       content: (
@@ -50,6 +53,7 @@ const App = () => {
       ),
       defaultSize: 135,
       backgroundColor: '#902ae6',
+      uniqueKey: 'calm',
     },
     {
       content: (
@@ -59,6 +63,7 @@ const App = () => {
       ),
       defaultSize: 80,
       backgroundColor: '#f29104',
+      uniqueKey: 'focus',
     },
   ];
   return (
